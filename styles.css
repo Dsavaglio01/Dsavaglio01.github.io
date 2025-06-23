@@ -6,3 +6,8 @@
     padding: 10px;
     text-align: center;
 }
+.iPhoneVideo {
+aspect-ratio: 1170 / 2532;
+  width: 100%;
+  max-width: 390px;
+}
