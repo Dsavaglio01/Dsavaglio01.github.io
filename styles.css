@@ -26,12 +26,25 @@ width: 100%;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-ul li::before {
+
+#firstList {
+  list-style: none; /* override inside */
+  margin-top: 0.25rem;
+  color: #e2e8f0;
+  padding-left: 0; /* prevent indentation */
+}
+
+#firstList li {
+  display: flex;
+  align-items: center;
+}
+
+#firstList li::before {
   content: '✓';
-  padding-right: 5px;
+  margin-right: 0.5rem;
   font-weight: bold;
 }
