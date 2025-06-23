@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>Dominic Savaglio | Full-Stack Developer</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body class="bg-gray-900 text-white font-sans">
 
@@ -17,19 +18,55 @@
 
   <!-- Featured Project -->
   <section id="project" class="px-6 py-16 bg-gray-800">
-    <h2 class="text-3xl font-bold mb-6">⚡️ Full-Stack Social Platform</h2>
     <div class="grid md:grid-cols-2 gap-6">
       <div>
-        <p class="text-lg mb-4">Built a mobile-first social platform with Google/Apple auth, media posting, DMs, themes, and real-time features using React Native, Node.js, Firebase, and GCP.</p>
-        <ul class="list-disc list-inside space-y-1 text-gray-300">
-          <li>Authentication (Google, Apple)</li>
-          <li>Image/Video uploads with feed</li>
-          <li>Likes, Comments, Shares, Mentions</li>
-          <li>Friends, Messaging, Themes</li>
-        </ul>
-        <div class="mt-6 flex gap-4">
-          <a href="https://github.com/dsavaglio01" target="_blank" class="text-blue-400 underline">GitHub</a>
+        <h2 class="text-3xl font-bold mb-6">⚡️ Full-Stack Social Platform - NuCliq</h2>
+        <div>
+          <p class="text-lg mb-4">Built a mobile-first social platform with Google/Apple auth, media posting, DMs, themes, and real-time features using React Native, Node.js, Firebase, and GCP.</p>
+          <ul class="list-disc list-inside space-y-1 text-gray-300">
+            <li>Authentication (Google, Apple)</li>
+            <li>Image/Video uploads with feed</li>
+            <li>Likes, Comments, Shares, Mentions</li>
+            <li>Friends, Messaging, Themes</li>
+          </ul>
         </div>
+      </div>
+      <div>
+        
+      </div>
+    </div>
+    <!-- <div class="mt-6 flex gap-4">
+      <a href="https://github.com/dsavaglio01" target="_blank" class="text-blue-400 underline">GitHub</a>
+    </div> -->
+  </section>
+
+  <!-- Video Demos -->
+  <section class="px-6 py-16 bg-gray-900">
+    <h2 class="text-3xl font-bold mb-8">Video Demos</h2>
+    <div class="grid md:grid-cols-5 gap-6">
+      <div>
+        <p class="demoHeader">Posting Images/Text</p>
+        <video height="600" width="400">
+          <source src="assets/videos/post.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div>
+        <p class="demoHeader">Liking & Saving on Home feed</p>
+        <video height="600" width="400">
+          <source src="assets/videos/like.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div>
+        <p class="demoHeader">Commenting & Replying on Home feed</p>
+        <video height="600" width="400">
+          <source src="assets/videos/comment.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div>
+        <p class="demoHeader">Sharing on Home feed</p>
+        <video height="600" width="400">
+          <source src="assets/videos/share.mp4" type="video/mp4">
+        </video>
       </div>
     </div>
   </section>
@@ -41,7 +78,7 @@
       <!-- Project Card -->
       <div class="bg-gray-800 p-4 rounded-xl shadow">
         <h3 class="font-bold text-xl mb-2">Voice AI SaaS (WIP)</h3>
-        <p class="text-gray-300">A B2B voice pipeline platform for dynamic transcription and real-time NLP. Built with GCP, Python, and React.</p>
+        <p class="text-gray-300">A B2B voice pipeline platform for dynamic transcription and real-time NLP. In development with PyTorch, Python, and React.</p>
       </div>
       <!-- Add more cards here -->
     </div>
